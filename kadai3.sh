@@ -1,6 +1,7 @@
 #!/bin/bash
 
-read -p "Please input number:" i
+#read -p "Please input number:" i
+i=$1
 j=2
 flag=1
 while [ $j -le `expr $i / 2` ]
