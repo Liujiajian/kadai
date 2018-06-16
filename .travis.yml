@@ -1,8 +1,7 @@
 language: bash
 script:
-  - echo hello
-  - bash -e ./kadai3.sh
-  - ./kadai3.sh 4
+  - echo test1
+  - bash -e ./kadai3.sh 4
   - echo test2
-  - bash -e ./kadai4.sh
-  - ./kadai3.sh 4
+  - bash -e ./kadai4.sh 4
+
